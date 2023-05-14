@@ -1,0 +1,31 @@
+::selection {
+  background: lavenderblush;
+  color: #528;
+}
+
+:root {
+  background-color: #81e;
+  background-image: radial-gradient(#318, #81e);
+  color: #dee;
+}
+
+.platter {
+  float: right;
+  display: inline-flex;
+  width: 2vmin;
+  height: 2vmin;
+  border-radius: 100%;
+  box-shadow: 0 0 0 5vmin lightcyan, 0 0 0 13vmin cyan;
+}
+
+li a {
+  background-image: conic-gradient(#318, #81e);
+}
+
+:any-link {
+  color: cyan;
+}
+
+:any-link:hover {
+  color: lightcyan;
+}
